@@ -1,0 +1,76 @@
+.listaChat {
+    display: flex;
+    align-items: center;
+    height: 5.8rem;
+    padding: 0 1.7rem;
+    cursor: pointer;
+}
+
+.listaChat.active {
+    background-color: #061a31;
+}
+
+.listaChat:hover {
+    background-color: #061a31;
+    transition: .3s;
+}
+ 
+.avatar{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 1.7rem;
+}
+
+.listaChat-lines {
+    flex: 1;
+    display: flex;          /* deixar alinhado */
+    flex-direction: column;  /* pega e joga pra baixo */
+    justify-content: center; /* deixa tudo alinhado */
+    
+    
+
+    flex-wrap: wrap;
+    min-width: 0;
+}
+
+.listaChat-line {
+    display: flex;   /* deixa alinhado */
+    align-items: center;  /* alinha ao centro */ 
+    justify-content: space-between;  /* vai espaçar  */
+    
+    width: 100%;
+}
+
+
+.nome {
+    font-size: 1.3rem;
+    color: #e7ecf3;
+}
+
+.ultima {
+    color: #8593a4;
+    font-size: 0.8rem;
+
+}
+
+.date {
+    color: #8593a4;
+    font-size: 0.85rem;
+}
+
+.ultima  {
+    font-size: 0.85rem;
+    color: #8593a4;
+
+    
+    width: 100%;
+}
+
+.ultima p {
+    overflow: hidden; 
+    white-space: nowrap;  /* serve pra ele nao ir pra linha de baixo */
+    text-overflow: ellipsis;  
+    margin: 0;  /* colocamos um margin 0, pq o P tem uma margin padrao */
+}

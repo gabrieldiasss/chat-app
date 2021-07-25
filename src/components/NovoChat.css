@@ -1,0 +1,68 @@
+
+.NovoChat {
+    width: 35%;
+    max-width: 500px;
+    left: 0;    /* IMPORTANTE */
+    bottom: 0;     /* IMPORTANTE */
+    background-color: white;
+    top: 0;     /* IMPORTANTE */
+    position: fixed; /* IMPORTANTE */
+    display: flex;
+    flex-direction: column;
+    transition: all ease 1.2s;
+}
+
+.NovoChat-header {
+    display: flex;
+    background-color: #031325;
+    padding: 4.3rem 1rem 1rem 1rem;
+}
+
+.NovoChat-botao {
+    display: flex;
+    align-items: center;
+    margin-left: 0.6rem;
+    cursor: pointer;
+}
+
+.NovoChat-titulo {
+    color: white;
+    margin-left: 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.NovoChat-lista {
+    overflow: auto;
+    cursor: pointer;
+}
+
+.NovoChat-Item {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+.NovoChat-avatar {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%;
+}
+
+.NovoChat-nome {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: Noto Sans;
+    color: #031325;
+    margin-left: 1.2rem;
+}
+
+.NovoChat-lista::-webkit-scrollbar {
+    width: 10px;
+	height: 10px;
+}
+
+.NovoChat-lista::-webkit-scrollbar-thumb {
+	background-color: #b6c0cf;
+	border-radius: 3rem;
+}

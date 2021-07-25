@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.mensagem-lines {
+    margin-bottom: 2.4rem;
+    display: flex;
+}
+
+.mensagemItem {
+    display: flex;
+    flex-direction: column;
+    background-color: #031325;
+    color: #ffff;
+    padding: 1rem 1.2rem 0.75rem;
+    border-radius: 1.8rem;
+    box-shadow: 4px 5px 6px #03132525;
+}
+
+.apenas-mensagem {
+    font-family: Nunito;
+    
+    max-width: 25rem;
+    font-size: 0.9rem;
+    font-family: Noto Sans;
+    margin: 0rem 4rem 0rem 0rem;
+    line-height: 1.5rem; 
+}
+
+.hora {
+    font-size: 0.7rem;
+    text-align: right;
+    margin-top: -1rem;
+    color: #8593a4;
+}

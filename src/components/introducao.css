@@ -1,0 +1,29 @@
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* IMPORTANTE */
+    height: 100%;  /* IMPORTANTE */
+}
+
+.tudo img {
+    width: 23rem;
+}
+
+.textos {
+    margin-top: -1rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    margin: 0;
+    color: #031325;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: #031325;
+    text-align: center;
+}
+
